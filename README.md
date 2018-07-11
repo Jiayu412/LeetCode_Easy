@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int romanToInt(char* s) {
     char romand[] = {'I', 'V', 'X', 'L', 'C', 'D', 'M'};
     int number[] = {1, 5, 10, 50, 100, 500, 1000};
